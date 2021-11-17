@@ -5,3 +5,5 @@
 function myFunction(setA, setB) {
   return [...setA].filter((item) => setB.has(item));
 }
+
+//Problem Link: https://www.jschallenger.com/javascript-sets/intersection-javascript-sets

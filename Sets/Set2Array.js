@@ -5,3 +5,5 @@
 function myFunction(set) {
   return Array.from(set);
 }
+
+//Problem link: https://www.jschallenger.com/javascript-sets/convert-set-to-array

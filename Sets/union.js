@@ -3,19 +3,17 @@
 // Return the result
 // Tipp: try not to switch to Arrays, this would slow down your code
 
-
-
 function myFunction(setA, setB) {
-
-    return [...new Set([...setA, ...setB])]
+  return [...new Set([...setA, ...setB])];
 }
 
+//or
 
-//or 
+function myFunction(set1, set2) {
+  const set3 = new Set();
+  set1.forEach((item) => set3.add(item));
+  set2.forEach((item) => set3.add(item));
+  return set3;
+}
 
-function myFunction(set1, set2 ) {
-    const set3  = new Set();
-    set1.forEach((item) => set3.add(item));
-    set2.forEach((item) => set3.add(item));
-    return set3;
- }
+//Problem link: https://www.jschallenger.com/javascript-sets/union-two-sets

@@ -8,3 +8,5 @@ function myFunction(set, value) {
 }
 
 //console.log(myFunction(new Set("12345"), "3"));
+
+//Problem link: https://www.jschallenger.com/javascript-sets/delete-element-from-javascript-set

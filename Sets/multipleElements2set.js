@@ -6,3 +6,5 @@ function myFunction(set, array) {
   array.forEach((item) => set.add(item));
   return set;
 }
+
+//Problem Link : https://www.jschallenger.com/javascript-sets/add-multiple-elements-to-javascript-set

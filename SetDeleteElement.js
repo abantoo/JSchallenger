@@ -3,5 +3,8 @@
 // Return the result
 
 function myFunction(set, value) {
-  return set.delete(value);
+  set.delete(value);
+  return set;
 }
+
+//console.log(myFunction(new Set("12345"), "3"));

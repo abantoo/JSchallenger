@@ -6,3 +6,5 @@
 function myFunction(date1, date2) {
   return date1.getTime() === date2.getTime();
 }
+
+//Problem Link: https://www.jschallenger.com/javascript-dates/check-if-two-dates-equal

@@ -8,8 +8,9 @@
 
 function myFunction(date) {
   a = date.getMinutes();
-  if (a > 45) return 0;
-  else {
+  if (a > 45) {
+    return 0;
+  } else {
     for (let i = 15; i < 60; i += 15) {
       if (i - a > 0) return i;
     }

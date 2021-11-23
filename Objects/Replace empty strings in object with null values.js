@@ -9,7 +9,9 @@
 
 function myFunction(obj) {
   for (key in obj) {
-    if (obj[key].trim() === "") obj[key] = null;
+    if (obj[key].trim() === "") {
+      obj[key] = null;
+    }
   }
   return obj;
 }

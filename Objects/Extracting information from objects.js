@@ -12,7 +12,11 @@
 function myFunction(obj) {
   const { fn, ln, size, weight, ...rest } = obj;
   const obj2 = { fn, ln };
-  if (size) obj2.size = `${size}cm`;
-  if (weight) obj2.weight = `${weight}kg`;
+  if (size) {
+    obj2.size = `${size}cm`;
+  }
+  if (weight) {
+    obj2.weight = `${weight}kg`;
+  }
   return obj2;
 }

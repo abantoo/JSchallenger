@@ -1,7 +1,11 @@
+// Problem link: https://www.jschallenger.com/javascript-sets/union-two-sets
+
 // Write a function that takes two Sets as arguments
 // Create the union of the two sets
 // Return the result
 // Tipp: try not to switch to Arrays, this would slow down your code
+
+"use strict";
 
 function myFunction(setA, setB) {
   return [...new Set([...setA, ...setB])];
@@ -15,5 +19,3 @@ function myFunction(set1, set2) {
   set2.forEach((item) => set3.add(item));
   return set3;
 }
-
-//Problem link: https://www.jschallenger.com/javascript-sets/union-two-sets

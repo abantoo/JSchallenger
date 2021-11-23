@@ -1,6 +1,10 @@
+// Problem link: https://www.jschallenger.com/javascript-dates/two-dates-same-day
+
 // Write a function that takes two date instances as argument
 // It should return true if they fall on the exact same day
 // It should return false otherwise
+
+"use strict";
 
 function myFunction(date1, date2) {
   return date1.getTime() === date2.getTime();
@@ -14,5 +18,3 @@ function myFunction(a, b) {
     a.getDate() === b.getDate()
   );
 }
-
-//Problem link: https://www.jschallenger.com/javascript-dates/two-dates-same-day

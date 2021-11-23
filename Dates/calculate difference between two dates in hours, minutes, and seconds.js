@@ -1,11 +1,7 @@
-// Problem link: https://www.jschallenger.com/javascript-dates/difference-between-dates
-
 // This is a more difficult challenge
 // Write a function that takes two date instances as arguments
 // It should return an object with the properties 'hrs', 'min', and 'sec'
 // The corresponding values should display the absolute difference between the two dates in hours, minutes, and seconds
-
-"use strict";
 
 function myFunction(a, b) {
   const c = Math.abs(a - b) / 1000;
@@ -14,3 +10,5 @@ function myFunction(a, b) {
   const sec = Math.floor(c) % 60;
   return { hrs, min, sec };
 }
+
+//Problem link: https://www.jschallenger.com/javascript-dates/difference-between-dates

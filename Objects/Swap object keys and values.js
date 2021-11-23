@@ -1,6 +1,10 @@
+// Problem link : https://www.jschallenger.com/javascript-objects/swap-object-keys-values
+
 // Write a function that takes an object as argument
 // Somehow, the properties and keys of the object got mixed up
 // Swap the Javascript object's key with its values and return the resulting object
+
+"use strict";
 
 function myFunction(obj) {
   const obj2 = {};
@@ -9,5 +13,3 @@ function myFunction(obj) {
   }
   return obj2;
 }
-
-//Problem link : https://www.jschallenger.com/javascript-objects/swap-object-keys-values

@@ -1,9 +1,13 @@
+// Problem link: https://www.jschallenger.com/javascript-objects/merge-objects-same-key/
+
 // Write a function that takes two objects as arguments
 // Unfortunately, the property 'country' in the second object has the wrong key
 // It should be named 'city' instead
 // Merge both objects and correct the wrong property name
 // Return the resulting object
 // It should have the properties 'planet', 'continent', 'country', 'state', and 'city'
+
+"use strict";
 
 function myFunction(obj1, obj2) {
   for (let key in obj2)
@@ -13,5 +17,3 @@ function myFunction(obj1, obj2) {
     }
   return { ...obj1, ...obj2 };
 }
-
-//Problem link: https://www.jschallenger.com/javascript-objects/merge-objects-same-key/

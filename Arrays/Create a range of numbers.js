@@ -1,5 +1,8 @@
+// Problem link: https://www.jschallenger.com/javascript-arrays/create-range-of-numbers/
+
 // Write a function that takes two numbers, say min and max, as arguments
 // Return an array of numbers in the range min to max
+"use strict";
 
 function myFunction(min, max) {
   const arr = [];
@@ -8,5 +11,3 @@ function myFunction(min, max) {
   }
   return arr;
 }
-
-//Problem link: https://www.jschallenger.com/javascript-arrays/create-range-of-numbers/

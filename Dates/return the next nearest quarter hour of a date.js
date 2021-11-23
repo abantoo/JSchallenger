@@ -1,6 +1,10 @@
+// Problem link: https://www.jschallenger.com/javascript-dates/javascript-nearest-quarter-hour-date/
+
 // Write a function that takes a Date instance as argument
 // It should return the next nearest quarter hour in minutes
 // For example, if the given date has the time 10:01 the function should return 15
+
+"use strict";
 
 function myFunction(date) {
   a = date.getMinutes();
@@ -11,4 +15,3 @@ function myFunction(date) {
     }
   }
 }
-//Problem link: https://www.jschallenger.com/javascript-dates/javascript-nearest-quarter-hour-date/

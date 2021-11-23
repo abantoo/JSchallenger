@@ -6,4 +6,4 @@ function myFunction(arr) {
   return arr.every((elm) => elm === arr[0]);
 }
 
-//Problem Link: https://www.jschallenger.com/javascript-arrays/check-if-array-elements-are-equal
+// Problem Link: https://www.jschallenger.com/javascript-arrays/check-if-array-elements-are-equal

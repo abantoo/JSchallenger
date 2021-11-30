@@ -1,4 +1,4 @@
-// Problem link: edabit.com/challenge/ztPMg7FBJbeRYTnag
+// Problem link: https://edabit.com/challenge/ztPMg7FBJbeRYTnag
 
 "use strict";
 

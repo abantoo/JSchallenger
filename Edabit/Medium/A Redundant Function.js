@@ -1,4 +1,4 @@
-//Problem link: https://edabit.com/challenge/hzxN9bAebBPNqdQto
+// Problem link: https://edabit.com/challenge/hzxN9bAebBPNqdQto
 
 function redundant(str) {
   function fruit() {

@@ -1,4 +1,4 @@
-//Problem link: https://edabit.com/challenge/zLYbAPk8NMnwoPhjG
+// Problem link: https://edabit.com/challenge/zLYbAPk8NMnwoPhjG
 
 function factorize(num) {
   const arr = [];

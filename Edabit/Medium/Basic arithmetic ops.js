@@ -1,4 +1,4 @@
-//Problem link: https://edabit.com/challenge/mgCKn998CNowjAZBF
+// Problem link: https://edabit.com/challenge/mgCKn998CNowjAZBF
 
 function operation(a, b, op) {
   if (op === "add") return parseInt(a) + parseInt(b);

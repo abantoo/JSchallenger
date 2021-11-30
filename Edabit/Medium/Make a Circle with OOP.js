@@ -1,4 +1,4 @@
-//Problem link: https://edabit.com/challenge/Hgb38yhWGwJCMHbRQ
+// Problem link: https://edabit.com/challenge/Hgb38yhWGwJCMHbRQ
 
 class Rectangle {
   constructor(sideA, sideB) {

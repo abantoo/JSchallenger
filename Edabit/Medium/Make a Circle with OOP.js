@@ -16,7 +16,6 @@ class Rectangle {
 }
 
 class Circle {
-  // put your code here
   constructor(rad) {
     this.rad = rad;
   }

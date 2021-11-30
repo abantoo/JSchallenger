@@ -1,4 +1,4 @@
-//Problem link: https://edabit.com/challenge/3ZtykTsx3GSoPHyBb
+// Problem link: https://edabit.com/challenge/3ZtykTsx3GSoPHyBb
 "use strict";
 
 function towerHanoi(discs) {
